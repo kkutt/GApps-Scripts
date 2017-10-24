@@ -1,7 +1,12 @@
-# GApps Scripts
-My scripts for Google Apps
+# various scripts
+Repo for my various small scripts
 
-### [chartsInForms.gs]
+### [signPDF.sh](signPDF.sh)
+
+Script for pasting signature.png into a PDF file. Reused from: https://github.com/szapp/pdfUtils/
+
+
+### [GApps/chartsInForms.gs](GApps/chartsInForms.gs)
 
 Script for creating a new Google Drawing for each subject that fills our Google Form.
 If you need a drawing 'question' (e.g. Draw a plot of a function), there is no possibility to do this with simple Google Form. 
@@ -17,4 +22,4 @@ Usage:
    2. Deploy the script as a Web App: https://developers.google.com/apps-script/guides/web
    3. Give the users the URL of a script instead of the form URL! (new drawing WILL NOT be created when you are using form URL!)
 
-[chartsInForms.gs]: <chartsInForms.gs>
+
